@@ -28,5 +28,6 @@ def index():
         prediction = reg.predict(X_height)[0]
     return render_template('index.html', prediction=prediction)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
